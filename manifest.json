@@ -1,0 +1,12 @@
+{
+  "Id": "presents.GameWatch",
+  "Name": "游戏陪玩",
+  "Version": "2.0.1",
+  "Description": "游戏陪玩：盯住游戏窗口，先本地比对画面变化（没变就不花 token），变了才让视觉模型抽取结构化线索（游戏/局势/变化/事件），再按「关键时刻必说、平时按概率」开口。带游戏类型预设（FPS 竞技 / MOBA 团战 / RPG·剧情 / 音游 / 休闲建造 / 通用）、事件时间轴与复盘；只截指定窗口、默认关、排除浏览器与聊天窗口，不读内存、不注入进程。附控制台：状态、暂停/继续、现在看一眼、事件时间轴、窗口列表、截图缓存与完整配置。 2.0.1：OCR 改由 presents.Shared.Media 公共库提供。",
+  "Dependencies": {
+    "Alife.Function.FunctionCaller": "",
+    "Alife.Function.Vision": "",
+    "presents.Shared.Media": ""
+  },
+  "Environments": {}
+}
